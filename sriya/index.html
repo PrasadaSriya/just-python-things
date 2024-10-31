@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Management and Query</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload and Query Documents</h2>
+
+        <!-- Upload Section -->
+        <div class="upload-section">
+            <input type="file" id="fileInput">
+            <button onclick="uploadFile()">Upload Document</button>
+        </div>
+
+        <!-- Display Document Content -->
+        <div id="documentContent"></div>
+
+        <!-- Query Section -->
+        <div class="query-section">
+            <input type="text" id="queryInput" placeholder="Ask a question about the document">
+            <button onclick="queryDocument()">Submit Query</button>
+        </div>
+
+        <!-- Display Query Result -->
+        <div id="queryResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E6E6FA; /* Light violet background */
+}
+
+.container {
+    width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align content in container */
+}
+
+.upload-section, .query-section {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #90EE90; /* Light green button */
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; /* Makes buttons appear side by side if needed */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #76c776; /* Slightly darker green on hover */
+}
+
+input {
+    padding: 8px;
+    width: calc(100% - 90px);
+    margin-right: 10px;
+}
